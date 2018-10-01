@@ -8,4 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextHelvetica">
+        <item name="android:fontFamily">Helvetica</item>
+    </style>
+
+    <style name="TextHelvetica.Black" parent="TextHelvetica">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextHelvetica.Black.24" parent="TextHelvetica.Black">
+        <item name="android:textSize">@dimen/text_24</item>
+    </style>
 </resources>
